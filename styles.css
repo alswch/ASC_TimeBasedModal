@@ -1,5 +1,5 @@
 body {
-  /*background-color: black;*/
+  background-color: black;
   margin: 0;
   height: 100%;
 }
@@ -25,25 +25,57 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+h1 {
+  text-align: center;
+  color: white;
+}
+#imagebox {
+  width: 576px;
+  height: 432px;
+  margin: auto;
+}
+#logoimage {
+  /*background-size: 100% 100%;*/
+  background-repeat: no-repeat;
+  background-image: url(shield_logo.jpg);
+  /*background-color: red;*/
+  width: 100%;
+  height: 100%;
+}
 #myModal {
   display: none;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
   padding-top: 100px;
 }
 #modalBox {
   /*position: relative;*/
-  width: 50%;
-  height: 60%;
+  width: 450px;
+  height: 450px;
   margin: auto;
   background-color: white;
-  padding: 20px;
+  /*padding: 20px;*/
+  text-align: center;
+  background-image: url(http://shirtigo.co/wp-content/uploads/2013/09/shield.jpg);
+  background-repeat: no-repeat;
 }
 #close {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
   float: right;
+  width: 34px;
+}
+#emailbox {
+  line-height: auto;
+}
+#email_id{
+margin-left: 50px;
+margin-top: 420px;
+text-align: center;
 }
